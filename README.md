@@ -6,7 +6,8 @@ Laravel5-Online-Kefu 是一个快速生成右侧悬浮客服代码的组件，�
 
 ## 更新记录
 
-* 2017-10-12 `Release v1.0.0` 完成初始化功能，可以正常使用。
+* 2017-10-12 `Release v1.0.1` 修改客服配置文件，调整左侧浮窗未知。
+* 2017-10-11 `Release v1.0.0` 完成初始化功能，可以正常使用。
 
 ## 安装流程
 
@@ -38,19 +39,13 @@ composer require chenhua/laravel5-online-kefu
 Chenhua\OnlineKefu\OnlineKefuServiceProvider::class,
 ```
 
-3、修改 `config/app.php` 中 `aliases` 数组
-
-```php
-'Kefu' => Chenhua\OnlineKefu\Facades\OnlineKefu::class,
-```
-
-4、执行 `artisan` 命令，生成 `config/kefu.php` 配置文件
+3、执行 `artisan` 命令，生成 `config/kefu.php` 配置文件
 
 ```bash
 php artisan vendor:publish --tag=kefu
 ```
 
-5、`config/kefu.php` 修改配置项
+4、`config/kefu.php` 修改配置项
 
 ```bash
 

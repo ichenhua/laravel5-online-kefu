@@ -33,8 +33,6 @@ class OnlineKefuServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        $this->app->bind("online-kefu", function(){
-            return new OnlineKefu();
-        });
+        //
     }
 }

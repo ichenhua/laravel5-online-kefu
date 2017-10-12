@@ -4,15 +4,15 @@
 
 <!--float-im start-->
 <div class="float-im">
-    <a href="#" class="qq">
-        <img src="http://www.dongyibiancheng.com/Public/img/qq1.png" alt="">
-        <p>在线客服</p>
+    <a href="http://wpa.qq.com/msgrd?v=3&uin={{ config('kefu.simple.qq.number') }}&site=qq&menu=yes" class="qq" target="_blank">
+        <img src="{{ asset('plugin/kefu/img/qq1.png') }}" alt="">
+        <p>{!! config('kefu.simple.qq.text') !!}</p>
     </a>
     <a href="javascript:;" class="weixin">
-        <img src="http://www.dongyibiancheng.com/Public/img/code.jpg" alt="">
+        <img src="{{ config('kefu.simple.weixin.qr-code') }}" alt="">
         <div class="box">
-            <div class="txt">微信扫一扫<br>咨询微信客服</div>
-            <img class="qr-code" src="http://www.dongyibiancheng.com/Public/img/code.jpg">
+            <div class="txt">{!! config('kefu.simple.weixin.text') !!}</div>
+            <img class="qr-code" src="{{ config('kefu.simple.weixin.qr-code') }}">
             <div class="sanjiao"></div>
             <div class="sanjiao-big"></div>
         </div>
