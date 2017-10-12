@@ -1,0 +1,20 @@
+{
+    "name": "chenhua/laravel5-online-kefu",
+    "description": "Online KeFu (Float IM) Package for Laravel 5",
+    "keywords": ["laravel", "chenhua", "kefu", "im"],
+    "homepage": "http://www.81f7.com",
+    "authors": [
+        {
+            "name": "chenhua",
+            "email": "276004561@qq.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "license": "MIT",
+    "require": {},
+    "autoload": {
+        "psr-4":{
+            "Chenhua\\OnlineKefu\\": "src"
+        }
+    }
+}
